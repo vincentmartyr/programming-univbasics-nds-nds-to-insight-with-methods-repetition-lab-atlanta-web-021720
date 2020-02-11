@@ -72,7 +72,7 @@ def total_gross(source)
 super_index = 0
 while super_index < source.length do
     #grand_total += directors_totals(source)[super_index]
-    grand_total = directors_totals(source)
+    grand_total = directors_totals(source).values
     super_index += 1
 end
 grand_total
